@@ -1,0 +1,27 @@
+{
+  "name": "bob",
+  "version": "1.0.0",
+  "description": "Conversational Bot",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha"
+  },
+  "keywords": [
+    "bot",
+    "bob"
+  ],
+  "author": "Nishant Jain",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "mocha": "^5.2.0",
+    "proxyquire": "^2.0.1",
+    "should": "^13.2.1"
+  },
+  "dependencies": {
+    "prompt": "^1.0.0",
+    "prompt-sync": "^4.1.6"
+  }
+}
