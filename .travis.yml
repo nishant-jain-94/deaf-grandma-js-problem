@@ -1,0 +1,15 @@
+sudo: required
+language: node_js
+node_js:
+  - node
+os:
+  - linux
+install:
+  - npm install
+script:
+  - npm run lint
+  - npm run test
+notifications:
+  email:
+    on_success: always
+    on_failure: always
