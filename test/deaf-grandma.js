@@ -51,6 +51,8 @@ describe('Deaf Grandma', () => {
       'NO, NOT SINCE 1930',
       'HUH?! SPEAK UP, SONNY!',
       'NO, NOT SINCE 1930',
+      'NO, NOT SINCE 1930',
+      'NO, NOT SINCE 1930',
     ];
 
     const actualStdout = mockPrintRecorder();
